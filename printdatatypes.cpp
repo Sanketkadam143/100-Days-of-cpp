@@ -1,3 +1,4 @@
+//printing the datatypes in same way as input
 #include <iostream>
 #include <cstdio>
 #include <iomanip>

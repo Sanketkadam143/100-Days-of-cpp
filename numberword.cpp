@@ -1,3 +1,5 @@
+
+//printing character number if digit is less than 9 else greater than 9
 #include<iostream>
 #include<string>
 using namespace std;
@@ -9,8 +11,7 @@ int main()
 
 if (n>=1 && n<=9)
 {
-  n=--n;
-  cout<<word[n] ;
+  cout<<word[n-1] ;
 }
 else
 {

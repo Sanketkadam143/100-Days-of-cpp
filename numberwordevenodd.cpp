@@ -1,3 +1,5 @@
+//printing character of digit if digit less than 9 else determine odd or even
+
 #include <iostream>
 #include <string>
 using namespace std;

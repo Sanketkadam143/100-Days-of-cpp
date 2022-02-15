@@ -1,3 +1,4 @@
+//determine whether no is prime or not
 #include<iostream>
 using namespace std;
 
