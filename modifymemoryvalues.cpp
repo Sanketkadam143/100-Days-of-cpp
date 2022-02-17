@@ -1,4 +1,4 @@
-//Modify the values in memory so that a contains their sum and b contains their absoluted difference.
+//Modify the values in memory so that a contains their sum and b321 contains their absoluted difference.
 
 
 
