@@ -4,25 +4,21 @@
 #include<iostream>
 using namespace std;
 
-void add(int a,int b)
+int add(int a,int b)
 {
-    int c=a+b;
-    cout<<"Addition"<<c;
+    return a+b;
 }
-void subtract(int a,int b)
+int subtract(int a,int b)
 {
-   int c=a-b;
-    cout<<"Subtraction is"<<c;
+  return a-b;
 }
-void multiply(int a,int b)
+int multiply(int a,int b)
 {
-   int c=a*b;
-    cout<<"Multiplication is"<<c;
+   return a*b;
 }
-void divide(float a,float b)
+float divide(float a,float b)
 {
-   float c=a/b;
-    cout<<"Division is "<<c;
+ return a/b;
 }
 
 int main()
@@ -36,17 +32,17 @@ int main()
    switch (op)
    {
    case 1:
-       add(a,b);
+      cout<<"Addition is "<< add(a,b);
        break;
     
     case 2:
-       subtract(a,b);
+       cout<<"Subtraction is "<<subtract(a,b);
        break;
     case 3:
-       multiply(a,b);
+       cout<<"Multiplication is "<<multiply(a,b);
        break;
     case 4:
-       divide(a,b);
+      cout<<"Division is "<< divide(a,b);
        break;
    default :
        break;
