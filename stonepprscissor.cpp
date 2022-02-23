@@ -88,6 +88,9 @@ int main()
     int a;
     bool validator = true;
 
+    cout<<"Press Enter to Start the game ";
+    cin.get();
+
     fav();
 
     while (validator == true)
