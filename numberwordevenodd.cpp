@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    int a,b;
+    int a,b,c,d;
     cin >> a >> b;
     string words[9] = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
    

@@ -187,7 +187,7 @@ int main()
   cin.get();
   cout << "Enter the total no of players (max 4)" << endl;
   cin >> n;
-  if (n != 1,2,3,4)
+  if (n ==0,n>4)
   {
     cout << "Please enter no of players upto 4" << endl;
   }
