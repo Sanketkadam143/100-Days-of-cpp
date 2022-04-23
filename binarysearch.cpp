@@ -1,7 +1,8 @@
-	#include<iostream>
+#include<iostream>
 using namespace std;
 
-//Binary Search works only on sorted arrays
+//Binary Search works only on sorted arrays.
+
 int BinarySearch(int A[], int n, int key){
     int low, high, mid;
     low = 0;
@@ -28,7 +29,7 @@ int main(){
     int len = sizeof(A) / sizeof(A[0]);
 
     int key;
-    cout<<"Enter key: ";
+    cout<<"Enter key:";
     cin>>key;
 
     int result = BinarySearch(A, len, key);
@@ -38,4 +39,5 @@ int main(){
     } else {
         cout<<"Found at index: "<<result;
     }
+return 0;
 }
