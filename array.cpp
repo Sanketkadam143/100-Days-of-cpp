@@ -1,8 +1,4 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
+#include<bits/std>
 using namespace std;
 
 
