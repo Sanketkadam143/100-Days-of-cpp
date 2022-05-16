@@ -21,7 +21,7 @@ using namespace std;
             if (leftRow[row] == 0 && lowerDiagonal[row + col] == 0 && upperDiagonal[n - 1 + col - row] == 0)
             {
 
-                //                 if the given position satisfy the above condition,adding queen to board and hashing the direction array
+                //                 if the given position satisfy the above condition,adding queen to board and hashing the direction array.
 
                 board[row][col] = 'Q';
                 leftRow[row] = 1;
