@@ -24,4 +24,5 @@ int main() {
         cout << a[r][s] << endl;
     }
     return 0;
+
 }
