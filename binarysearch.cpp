@@ -40,4 +40,5 @@ int main(){
         cout<<"Found at index: "<<result;
     }
 return 0;
+
 }
